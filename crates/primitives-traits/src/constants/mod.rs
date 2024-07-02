@@ -33,7 +33,7 @@ pub const BEACON_NONCE: u64 = 0u64;
 /// The default Ethereum block gas limit.
 // TODO: This should be a chain spec parameter.
 /// See <https://github.com/paradigmxyz/reth/issues/3233>.
-pub const ETHEREUM_BLOCK_GAS_LIMIT: u64 = 30_000_000;
+pub const ETHEREUM_BLOCK_GAS_LIMIT: u64 = 10_100_100_100;
 
 /// The minimum tx fee below which the txpool will reject the transaction.
 ///
